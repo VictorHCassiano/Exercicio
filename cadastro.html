@@ -8,8 +8,10 @@
 </head>
 <body>
     
-    <h2><strong>Cadastro de Usuarios</strong></h2>
-<form action="">
+   
+<form action="" autocomplete="on">
+    <fieldset>
+        <legend> <h2><strong>Cadastro de Usuarios</strong></h2></legend>
         <label for="txtNome:">Nome:</label><br>
          <input type="text" maxlength="10" id="txtNome"><br><br>
         <label for="txtEndereco">Endereco:</label><br>
@@ -38,8 +40,9 @@
 
         <input type="checkbox" name="notficicacao" id="chkNotificacao">
         <label for="chkNotificacao">Receber notificacao</label><br><br>
-
+        <textarea name="Resumo" id="" cols="50" rows="10">Digite aqui o seu resumo</textarea><br>
         <button>Salvar</button> <button>Cancelar</button>
+    </fieldset>
 </form>
 
 <hr><br>
